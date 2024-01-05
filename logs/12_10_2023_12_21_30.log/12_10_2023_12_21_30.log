@@ -1,0 +1,23 @@
+[ 2023-12-10 12:21:32,311 ] 26 root - INFO - Data Ingestion methods Starts
+[ 2023-12-10 12:21:32,398 ] 29 root - INFO - Dataset read as pandas Dataframe
+[ 2023-12-10 12:21:32,733 ] 33 root - INFO - Train test split
+[ 2023-12-10 12:21:33,039 ] 39 root - INFO - Ingestion of Data is completed
+[ 2023-12-10 12:21:33,117 ] 90 root - INFO - Read train and test data completed
+[ 2023-12-10 12:21:33,124 ] 91 root - INFO - Train Dataframe Head : 
+   Unnamed: 0  carat    cut color clarity  depth  table  price     x     y     z
+0       19498   1.21  Ideal     H    VVS2   61.3   57.0   8131  6.92  6.87  4.23
+1       31230   0.31  Ideal     E     VS2   62.0   56.0    756  4.38  4.36  2.71
+2       22312   1.21  Ideal     E     VS1   62.4   57.0  10351  6.75  6.83  4.24
+3         279   0.81  Ideal     F     SI2   62.6   55.0   2795  5.92  5.96  3.72
+4        6647   0.79  Ideal     I    VVS2   61.7   56.0   4092  5.94  5.95  3.67
+[ 2023-12-10 12:21:33,130 ] 92 root - INFO - Test Dataframe Head  : 
+   Unnamed: 0  carat        cut color clarity  depth  table  price     x     y     z
+0        1389   0.24      Ideal     G    VVS1   62.1   56.0    559  3.97  4.00  2.47
+1       50053   0.58  Very Good     F    VVS2   60.0   57.0   2201  5.44  5.42  3.26
+2       41646   0.40      Ideal     E    VVS2   62.1   55.0   1238  4.76  4.74  2.95
+3       42378   0.43    Premium     E    VVS2   60.8   57.0   1304  4.92  4.89  2.98
+4       17245   1.55      Ideal     E     SI2   62.3   55.0   6901  7.44  7.37  4.61
+[ 2023-12-10 12:21:33,130 ] 94 root - INFO - Obtaining preprocessing object
+[ 2023-12-10 12:21:33,130 ] 36 root - INFO - Data Transformation initiated
+[ 2023-12-10 12:21:33,130 ] 46 root - INFO - Pipeline Initiated
+[ 2023-12-10 12:21:33,131 ] 135 root - INFO - Exception occured in the initiate_datatransformation
